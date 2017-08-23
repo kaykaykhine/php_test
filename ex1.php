@@ -4,4 +4,5 @@
 	foreach ($color as $result) {
 		echo "*" . $result . "<br>";
 	}	
+	echo "testing branch..";
 ?>
