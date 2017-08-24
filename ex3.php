@@ -7,4 +7,5 @@
 	 echo current($color) ."<br>";
 	 echo next($color) . "<br>";
 	 echo "Real result:" . reset($color) ."<br>";
+	 echo "This is testing from aal.";
 ?>
