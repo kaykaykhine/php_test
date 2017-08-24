@@ -4,6 +4,7 @@
  var_dump($x);
  unset($x[3]);
  $x = array_values($x);
+ echo"aa";
  echo "<br>";
 var_dump($x);	
 	
