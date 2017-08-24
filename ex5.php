@@ -1,17 +1,5 @@
 <?php
-$original = array( '1','2','3','4','5' );
-echo 'Original array : '."<br>";
-foreach ($original as $x) 
-{
-	echo "$x ";
-}
-$inserted = '$';
-//test array_splice
-array_splice( $original, 3, 0, $inserted ); 
-echo "<br> After inserting '$' the array is : "."<br>";
-foreach ($original as $x) 
-{
-	echo "$x ";
-}
-echo "<br>"
+echo "kdfjdjfkljk4465465";
+echo "kf87887";
+echo "sdfjksjdfkldsj";
 ?>
