@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 //AS by key
 echo "Ascending order sort by Key<br>";
 $result2=array("Sophia"=>"31","Jacob"=>"41","William"=>"39","Ramesh"=>"40"); 
@@ -15,6 +16,9 @@ foreach($result3 as $c=>$c_value)
 {
 echo "DC value of ".$c." is : ".$c_value."<br>";
 }
+=======
+
+>>>>>>> b42b7ef77a9be3be080f61fcd3449c4460857269
 //DS by key
 echo "Descending order sorting by Key<br>";
 $result4=array("Sophia"=>"31","Jacob"=>"41","William"=>"39","Ramesh"=>"40");
@@ -23,4 +27,13 @@ foreach($result4 as $d=>$d_value)
 {
 echo "DC key of ".$d." is : ".$d_value."<br>";
 } 
+
+echo "Ascending order sort by value<br>";
+$result1=array("Sophia"=>"31","Jacob"=>"41","William"=>"39","Ramesh"=>"40"); 
+asort($result1);
+foreach($result1 as $a=>$a_value)
+{
+echo "AS value of ".$a." is : ".$a_value."<br>";
+}
+
 ?>
