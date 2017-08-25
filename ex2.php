@@ -3,5 +3,6 @@
 	asort($ceu);
 	foreach ($ceu as $key => $value) {
 		echo $key . "=>" .$value ."<br><hr>";
+		echo $key . "=>" .$value ."<br>"."This is testing from aal";
 	}
 ?>
